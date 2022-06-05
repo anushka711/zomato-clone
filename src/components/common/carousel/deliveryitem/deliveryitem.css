@@ -1,0 +1,48 @@
+.delivery-item-cover {
+    height: 150px;
+    width: 150px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border-radius: 50%;
+}
+
+.delivery-item-image {
+    height: 100%;
+    width: 100%;
+    object-fit : cover;
+    border-radius: 50%;
+}
+
+.delivery-item-title{
+    display:flex;
+    font-size: 20px;
+    font-weight : 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 10px 10px 60px 50px;
+}
+
+.orderagain-item-cover {
+    height: 170px;
+    width: 260px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border-radius: 8px;
+}
+
+.orderagain-item-image {
+    height: 100%;
+    width: 100%;
+    object-fit : cover;
+    border-radius: 8px;
+}
+
+.orderagain-item-title{
+    display:flex;
+    font-size: 20px;
+    font-weight : 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
